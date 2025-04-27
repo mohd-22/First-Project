@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap">
+    <link rel="stylesheet" href="csszero.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <ul id="main-nav">
+            <li class="Logo"><img id="llo" src="img/headerLogo.svg" alt=""></li>
+            <li class="items"><a href="#services">Services</a></li>
+            <li class="items"><a href="#work-process">Work Process</a></li>
+            <li class="items"><a href="">Products</a></li>
+            <li id="ee" class="items"><a href="#contact-us">Contact Us</a></li>
+            <li id="menu-but" class="items"><svg onclick=showsidebar() xmlns="http://www.w3.org/2000/svg" height="40"
+                    viewBox="0 -960 960 960" width="40" fill="#e8eaed">
+                    <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
+                </svg></li>
+            <li id="close-but" style="display: none; "> <svg class="clse" onclick=hidesidebar() style="fill: white;"
+                    xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40" fill="#e8eaed">
+                    <path
+                        d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
+                </svg></li>
+        </ul>
+    </nav>
+    <div class="hid-nav" id="sidebar">
+        <ul class="hid-nav">
+            <li class="hd-items"><a href="#services">Services</a></li>
+            <li class="hd-items"><a href="#work-process">Work Process</a></li>
+            <li class="hd-items"><a href="">Products</a></li>
+            <li class="hd-items"><a href="#contact-us">Contact Us</a></li>
+        </ul>
+    </div>
+
+    <main>
+        <section class="sec1">
+            <div>
+                <h2>Fresh <span style="color: #478c0d;">Ideas</span></h2>
+                <h2>Minty Solutions!</h2>
+                <p> Empower your digital journey with our premier software development solutions. </p>
+            </div>
+            <div>
+                <img style="max-width: 100%;" src="img/intro-ill.svg" alt="">
+            </div>
+        </section>
+        <!-- <br> -->
+        <div class="app-services" id="services">
+            <section>
+                <div>
+                    <div class="heading">
+                        <img src="img/tilted-logo.svg" alt="">
+                        <h2>Services</h2>
+                    </div>
+                    <h6>What we do?</h6>
+                </div>
+
+            </section>
+        </div>
+        <!-- //////////////////////// Services //////////////////////////////// -->
+        <div class="services">
+
+            <div class="swiper card-wrapper">
+                <div class="swiper-wrapper" style="width: 950px;">
+                    <!-- Web Apps Card -->
+                    <div class="card-image swiper-slide">
+                        <div class="icon-wrapper">
+                            <img src="img/web.svg" alt="Web App" class="card-img">
+                        </div>
+                        <h4>Web Apps</h4>
+                        <p>Make lively and easy-to-use web apps that fit your needs, giving smooth experiences and
+                            strong tools.</p>
+                    </div>
+
+                    <!-- Mobile Apps Card -->
+                    <div class="card-image swiper-slide">
+                        <div class="icon-wrapper">
+                            <img src="img/mobile.svg" alt="Mobile App" class="card-img">
+                        </div>
+                        <h4>Mobile Apps</h4>
+                        <p>Lead the way in the mobile world with top-notch apps, ensuring smooth performance and user
+                            satisfaction.</p>
+                    </div>
+
+                    <!-- UI/UX Design Card -->
+                    <div class="card-image swiper-slide">
+                        <div class="icon-wrapper">
+                            <img src="img/ui-ux.svg" alt="UI/UX Design" class="card-img">
+                        </div>
+                        <h4>UI/UX Design</h4>
+                        <p>Elevate your digital experience with eye-catching designs and intuitive interfaces, blending
+                            form and function.</p>
+                    </div>
+
+                    <!-- Branding Card -->
+                    <div class="card-image swiper-slide">
+                        <div class="icon-wrapper">
+                            <img src="img/branding-and-logo-design.svg" alt="Branding" class="card-img">
+                        </div>
+                        <h4>Branding & Logo Design</h4>
+                        <p>Shape your brand's identity with smart logos and creative designs that captivate your
+                            audience.</p>
+                    </div>
+
+                    <!-- Graphic Design Card -->
+                    <div class="card-image swiper-slide">
+                        <div class="icon-wrapper">
+                            <img src="img/graphic-designs.svg" alt="Graphic Design" class="card-img">
+                        </div>
+                        <h4>Graphic Design</h4>
+                        <p>Turn your ideas into bold visuals, from ads to digital pieces, elevating your brand's visual
+                            appeal.</p>
+                    </div>
+
+                    <!-- DevOps Card -->
+                    <div class="card-image swiper-slide">
+                        <div class="icon-wrapper">
+                            <img src="img/devops.svg" alt="DevOps" class="card-img">
+                        </div>
+                        <h4>DevOps</h4>
+                        <p>Streamline your software development with efficient DevOps solutions for faster delivery and
+                            collaboration.</p>
+                    </div>
+                </div>
+
+                <!-- Swiper Pagination -->
+                <div class="swiper-pagination"></div>
+
+                <!-- Swiper Navigation -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+        </div>
+        <!-- //////////////////////// Work Process //////////////////////////////// -->
+        <section class="Work-Process" id="work-process">
+            <div class="heading work-intro" style="padding: 42px 0px;">
+                <img src="img/tilted-logo.svg" alt="">
+                <h2 style="font-size: 27px;">Work Process</h2>
+            </div>
+
+            <div class="cards">
+                <div class="card">
+                    <div class="heading work-heading">
+                        <div class="work-icon">
+                            <img src="img/plan.svg" alt="">
+                        </div>
+                        <h4>Plan</h4>
+                    </div>
+                    <ul class="work-content">
+                        <li>
+                            We use the information and guidance we receive at the launch meeting, along with our
+                            expertise, to begin laying out the project's foundational work. We will help you define a
+                            clear strategy and develop a roadmap. By including you in our strategic development process,
+                            we ensure that our creative work is never based on ambiguous methods. The plan we develop
+                            together will guide the entire project, ensuring the final product meets your goals.
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <div class="heading work-heading">
+                        <div class="work-icon">
+                            <img src="img/design.svg" alt="">
+                        </div>
+                        <h4>Design</h4>
+                    </div>
+                    <ul class="work-content">
+                        <li>
+                            This is where the excitement begins! Our design team will make a custom design for your
+                            business. During the design phase, you’ll start seeing color palettes and design elements
+                            based on the solution map and wireframes. We work collaboratively throughout the creative
+                            process, both internally and with you. </li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <div class="heading work-heading">
+                        <div class="work-icon">
+                            <img src="img/implement.svg" alt="">
+                        </div>
+                        <h4>Implement</h4>
+                    </div>
+                    <ul class="work-content">
+                        <li>
+                            We then code the application along with creating the layout of the main sections and
+                            resolving the client’s feedback. </li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <div class="heading work-heading">
+                        <div class="work-icon">
+                            <img src="img/test.svg" alt="">
+                        </div>
+                        <h4>Test</h4>
+                    </div>
+                    <ul class="work-content">
+                        <li>
+                            Before we launch your solution, our team completely tests all of its features, to ensure
+                            that the solution is optimized for good viewing. We also re-test your solution after launch
+                            to ensure that everything is operational in the live environment. </li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <div class="heading work-heading">
+                        <div class="work-icon">
+                            <img src="img/deploy.svg" alt="">
+                        </div>
+                        <h4>Deploy</h4>
+                    </div>
+                    <ul class="work-content">
+                        <li>
+                            Within the deployment process, we transform your solution from the development to the live
+                            environment. Our team ensures smooth integration and deployment so that your customers can
+                            access and use your service effectively. </li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <div class="heading work-heading">
+                        <div class="work-icon">
+                            <img src="img/maintain.svg" alt="">
+                        </div>
+                        <h4>Maintain</h4>
+                    </div>
+                    <ul class="work-content">
+                        <li>
+                            Your solution is up and running! Now let us help support you and keep your solution going
+                            smoothly. We pride ourselves on being able to fix issues quickly without any charges for the
+                            warranty period. After the warranty period, we offer maintenance packages at reduced rates.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="app-clients">
+            <div class="logos">
+                <div class="logo">
+                    <img width="195px" src="img/edu-minty.svg" alt="">
+                </div>
+                <div class="logo">
+                    <img width="139px" src="img/client-eve.svg" alt="">
+                </div>
+                <div class="logo">
+                    <img width="195px" src="img/client-قطعكم.svg" alt="">
+                </div>
+                <div class="logo">
+                    <img width="195px" src="img/client-طبيبك.svg" alt="">
+                </div>
+                <div class="logo">
+                    <img width="195px" src="img/Frame.svg" alt="">
+                </div>
+            </div>
+            <div class="intro">
+                <div class="text">
+                    <img style="width: 27px;" src="img/tilted-logo.svg" alt="">
+                    <h2>Clients</h2>
+                </div>
+                <h2>Projects done by <span style="color: #478c0d;">Code Mint</span></h2>
+                <h2>company check our projects now
+                </h2>
+
+            </div>
+        </section>
+        <section class="Contact-us" id="contact-us">
+            <div class="introo">
+                <div>
+                    <h5>Contact us---</h5>
+                    <p>You can ask us for anything contact with codemint and find your solution</p>
+                </div>
+                <hr>
+                <div class="contact-info">
+                    <div class="phone">
+
+                        <div class="work-icon phone-icon">
+                            <img src="img/phone.svg" alt="">
+                        </div>
+                        <div>
+                            <h6>
+                                Phone Number
+                            </h6>
+                            <h6>
+                                +962 7 9936 7271
+                            </h6>
+                        </div>
+                    </div>
+                    <div class="phone">
+
+                        <div class="work-icon phone-icon">
+                            <img src="img/email.svg" alt="">
+                        </div>
+                        <div>
+                            <h6>
+                                Email
+                            </h6>
+                            <h6>
+                                Info@Code-Mint.com
+                            </h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <form class="formm" action="">
+
+                <div class="form-input">
+                    <span class="icon"><img src="img/active-email.svg" alt=""></span>
+                    <input type="email">
+                    <label>Email</label>
+                </div>
+
+
+                <div class="countries">
+                    <select name="" id="" style="width: 56px;">
+                        <option value="1">
+                            <p>+971</p>
+                            <p> United Arab Emirates</p>
+                        </option>
+                        <option value="2">
+                            <p>+444</p>
+                            <p> United Kingdom</p>
+                        </option>
+                        <option value="3">
+                            <p>+100</p>
+                            <p> United States</p>
+                        </option>
+                        <option value="4">
+                            <p>+962</p>
+                            <p> Jordan</p>
+                        </option>
+                        <option value="5">
+                            <p>+966</p>
+                            <p> Saudi Arabia</p>
+                        </option>
+                        <option value="6">
+                            <p>+201</p>
+                            <p> Egypt</p>
+                        </option>
+                    </select>
+                    <input type="text">
+                </div>
+
+
+                <div class="form-input">
+                    <span class="icon"><img src="img/non-active-name.svg" alt=""></span>
+                    <input type="email">
+                    <label>Full Name</label>
+                </div>
+
+                <textarea name="" id="" placeholder="Message"></textarea>
+
+                <button type="submit">Send</button>
+
+            </form>
+        </section>
+
+    </main>
+    <footer>
+        <section class="int">
+            <div class="code-mint">
+                <img src="img/footer-logo.svg" alt="Minty Solutions Logo">
+                <p>Fresh Ideas, Minty Solutions!</p>
+            </div>
+            <div class="impo-links">
+                <h2>Important Links</h2>
+                <div class="linkss">
+                    <ul>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#work-process">Work Process</a></li>
+                        <li>Products</li>
+                        <li><a href="#contact-us">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+
+
+        </section>
+
+        <div>
+            <hr style="width: 80%;">
+        </div>
+        <section class="copy-rights-and-soical">
+            <div class="copy-rights">
+                Copyright © 2023-2025. All rights reserved to Codemint
+
+            </div>
+            <div class="soical">
+
+                <a href="https://www.facebook.com/profile.php?id=61555636679903" target="_blank">
+                    <div><img src="img/facebook.svg" alt=""></div>
+                </a>
+                <a href="https://www.instagram.com/code.mint/" target="_blank">
+                    <div><img src="img/instagram.svg" alt=""></div>
+                </a>
+                <a href="https://code-mint.com/" target="_blank">
+                    <div><img src="img/x.svg" alt=""></div>
+                </a>
+                <a href="https://www.linkedin.com/company/code-mint/" target="_blank">
+                    <div><img src="img/linked-in.svg" alt=""></div>
+                </a>
+
+
+
+            </div>
+        </section>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+    
+</body>
+
+</html>
